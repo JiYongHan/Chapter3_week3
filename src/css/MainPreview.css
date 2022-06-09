@@ -1,0 +1,7 @@
+.Preview-wrap{
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}

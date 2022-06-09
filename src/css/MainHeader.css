@@ -1,0 +1,58 @@
+:root{
+    --icon-size : 150%;
+    --text-size : 2vw;
+
+    --blue-color: #1b9cfc;
+}
+.MainHeader-wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    margin : 10px auto;
+}
+
+.MainHeader-home-icon {
+    font-size: var(--icon-size);
+    color: var(--blue-color);
+    cursor: pointer;
+}
+
+.MainHeader-user-info{
+    display: flex;
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainHeader-user-icon{
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.MainHeader-user-nickname{
+    font-size: 1rem;
+}
+.MainHeader-signup{
+    font-size: var(--icon-size);
+    color: var(--blue-color);
+    margin-right : 15px;
+    cursor: pointer;
+}
+
+.MainHeader-logout{
+    font-size: var(--icon-size);
+    color: var(--blue-color);
+    margin-right : 15px;
+    cursor: pointer;
+}
+
+.MainHeader-login{
+    font-size: var(--icon-size);
+    color: var(--blue-color);
+    cursor: pointer;
+}

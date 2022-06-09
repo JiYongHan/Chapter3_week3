@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  width: 70vw;
+  max-width: 800px;
+  height: 100%;
+  margin: auto;
+}
+
+.app-post-icon{
+  font-size: 3rem;
+  position: fixed;
+  right: 10vw;
+  bottom: 5vh;
+  color: #2b9cfc;
+  cursor: pointer;
+  visibility: hidden;
+}
